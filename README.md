@@ -8,7 +8,8 @@ This repository contains R code for a Time Series Econometrics (M.A./ PhD) cours
 
 1. Computing sample ACF and PACF with classical confidence bands. Based, on the results, selection of an *ARMA(p,q)* process.
 3. Implementation of the robust ACF confidence bands and the robust Portmanteau estimators.
-4. Applying the robust portmanteau tests to a time series with time-varying variance. Building ACF plots with robust confidence bands.  
+4. Applying the robust portmanteau tests to a time series with time-varying variance. 
+5. Building ACF plots with robust confidence bands.  
 
 ## [A2_forecasting.R](https://github.com/nathaliemayor/Time_Series_Econometrics/blob/main/A2_forecasting.R) - *Time Series Decomposition, *
 
