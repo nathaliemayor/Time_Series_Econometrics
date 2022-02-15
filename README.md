@@ -13,7 +13,7 @@ This repository contains R code for a Time Series Econometrics (M.A./ PhD) cours
 
 ## [A2_forecasting.R](https://github.com/nathaliemayor/Time_Series_Econometrics/blob/main/A2_forecasting.R) - *Time Series Decomposition, Cointegration*
 
-1. Creation of a seasonal plot for sales data, decomposition of the time series into seasonal, trend and residual component. Analysis of the ACF of the residual component. Fitting an ARIMA model and forecasting of the time series.
+1. Creation of a seasonal plot for sales data, decomposition of the time series into seasonal, trend and residual component. Analysis of the ACF of the residual component. Fitting an *ARIMA* model and forecasting of the time series.
 2. Given two time series (ETFs with ticker *EWA* and *EWC*), computation of the spread. 
 3. Analysis and and modelling (ARIMA) of the spread. 
 4. Execution of Augmented Dickey Fuller tests on the time series.
