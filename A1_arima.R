@@ -15,7 +15,6 @@ plot <- ggplot(data = data2021, aes(x=X, y = x)) +
   theme_economist() +
   ggtitle(" Index") +
   labs(y = "Value", x = "Time")
-plot
 
 #Data seems to be serially correlated with a cyclical component.
 
@@ -87,7 +86,6 @@ plot2 <- ggplot(data = data20212, aes(x=X, y = x)) +
   theme_economist() +
   ggtitle(" Index") +
   labs(y = "Value", x = "Time")
-plot2
 
 data20212m <- data20212[2]
 rhos <- acf(x = data20212m, lag.max = 10, plot = FALSE)[[1]]
