@@ -25,7 +25,6 @@ setwd(dirname(current_path))
 
 # 1.a #########################################################################
 data<-read.xlsx("MonthlyChocolateSales.xlsx",3,header = TRUE)
-data
 
 ts<-ts(data$Sales,frequency = 12,start = c(2015,1))
 
